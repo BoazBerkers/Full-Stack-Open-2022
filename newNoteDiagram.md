@@ -1,5 +1,3 @@
-Here is a simple flow chart:
-
 ```mermaid
 sequenceDiagram
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
