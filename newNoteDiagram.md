@@ -1,5 +1,7 @@
 ```mermaid
 sequenceDiagram
+Note over browser: user types in note and presses Save button
+browser-->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
 server-->browser: HTML-code
 browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
